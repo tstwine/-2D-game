@@ -144,9 +144,9 @@ function handleBubbles(){
         } else if (bubblesArray[i].distance  < bubblesArray[i].radius + player.radius){
              if (!bubblesArray[i].counted){
                  if (bubblesArray[i].sound == 'sound1'){
-                   //  bubblePop1.play();                   
+                     bubblePop1.play();                   
                  } else {
-                   //  bubblePop2.play();
+                     bubblePop2.play();
                  }
                  score++;
                  bubblesArray[i].counted = true;
